@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>8</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Анкета посетителя ресторана</h1>
+    <form action="" method="get">
+    <fieldset>
+    <legend>Контактная информация</legend>
+    <label>Имя</label>
+    <input type="text" class="input"><br><br>
+    <label>Телефон</label>
+    <input type="text" class="input"><br><br>
+    <label>Email</label>
+    <input type="text" class="input"><br><br>
+    <label>Дата посещения</label>
+    <input type="date" class="input"><br><br></fieldset>
+    <fieldset>
+        <legend>Персональная информация</legend>
+        <label>Возраст</label>
+        <input type="number" min="1" max="100" step="1"><br><br>
+        <label>Любимая кухня</label>
+        <select>
+            <option>Русская</option>
+            <option>Азиатская</option>
+            <option>Грузинская</option>
+            <option>Итальянская</option>
+        </select><br><br>
+        <label>Какие блюда Вы хотели бы увидеть в меню?</label>
+        <textarea></textarea>
+
+    </fieldset>
+    <fieldset>
+        <legend>Оценка нашего заведения</legend>
+        <p>Почему Вы выбрали наше заведение?</p>
+        <input type="radio" name="1"><label>Недалеко от дома/работы</label><br><br>
+        <input type="radio"  name="1"><label>Увидел рекламу</label><br><br>
+        <input type="radio"  name="1"><label>Посоветовали</label><br><br>
+        <input type="radio"  name="1"><label>Оптимальное соотношение цены и качества</label><br><br>
+        <p>Вы будете рекомендовать наше заведение своим знакомым?</p>
+        <input type="radio" name="1"><label>Да</label>
+        <input type="radio" name="1"><label>Нет</label>
+    </fieldset>
+    <input type="submit" value="Отправить">
